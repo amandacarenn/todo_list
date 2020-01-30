@@ -1,0 +1,50 @@
+ 
+#btnAdicionar {
+  background-color: rgb(131, 131, 226) ;
+  height: 30px;
+  margin: 0 0 20px;
+}
+  
+#btnCancelar {
+  background-color: rgb(245, 81, 81);
+  height: 30px;
+  margin: 0 0 20px;
+}
+
+form label {
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+#tarefa {
+  height: 20px;
+  width: 300px;
+  margin: 0 0 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+}
+
+thead {
+  background-color: #dddddd;
+}
+
+.fa-trash-alt {
+  color: red;
+  font-size: 20px;
+
+}
+
+.fa-edit {
+  color: orange;
+  font-size: 20px;
+}
