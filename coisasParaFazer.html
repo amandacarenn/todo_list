@@ -12,6 +12,7 @@
 
     <script src="https://kit.fontawesome.com/3465e94b76.js" crossorigin="anonymous"></script>
     
+    
     <title>Coisas Para Fazer</title>
 </head>
 
@@ -32,21 +33,20 @@
                                 Cadastro de Tarefas
                             </h5>
                             <div class="card-body">
-                                <p class="card-text">Para adicionar uma tarefa, basta informar no campo abaixo e clicar no 
-                                botão Adicionar.
-                                </p>
-
+                                
                                 <div class="col-md-6">
                                     <label for="tarefa">Tarefa</label>
                                     <input class="form-control"
                                     id="tarefa" 
-                                    type="text">
+                                    type="text"
+                                    >
                                 </div>
 
                                 <div class="text-left p-3 pt-3">
                                     <button class="btn btn-primary btn-sm"
                                             id="btnAdicionar"
-                                            type="button">
+                                            type="button"
+                                            >
                                             Adicionar
                                     </button>
                                     <button class="btn btn-danger btn-sm"
@@ -69,7 +69,8 @@
 
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table class="table table-hover">
+                            <table class="table table-hover"
+                            id="tabelaTarefa">
                                 <thead>
                                     <tr>
                                         <th>Tarefa</th>
@@ -78,99 +79,6 @@
                                     </tr>    
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Fazer curso de Angular</td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Criar um site para o projeto "A corrente do Amor". Preciso falar com a professora Rosana para
-                                            que ela autorize o mesmo.
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Criar um site para o projeto "A corrente do Amor". Preciso falar com a professora Rosana para
-                                            que ela autorize o mesmo.
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Criar um site para o projeto "A corrente do Amor". Preciso falar com a professora Rosana para
-                                            que ela autorize o mesmo.
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Criar um site para o projeto "A corrente do Amor". Preciso falar com a professora Rosana para
-                                            que ela autorize o mesmo.
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>Criar um site para o projeto "A corrente do Amor". Preciso falar com a professora Rosana para
-                                            que ela autorize o mesmo.
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-warning btn-sm">
-                                                <i class="fas fa-edit"></i>
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <button class="btn btn-danger btn-sm">
-                                                <i class="fas fa-trash-alt"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -179,5 +87,6 @@
             </div>
         </div>
     </div>
+    <script src="todoList.js"></script>
 </body>
 </html>
